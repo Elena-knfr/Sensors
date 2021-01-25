@@ -1,0 +1,48 @@
+{
+	"passport": {
+		"message-topic": "handshake",  
+		"device-name": "",
+		"device-OS": "", 
+		"device-type": "", 
+		"interfaces": { 
+			"wifi": [], 
+			"ethernet": []  
+		},
+		"power-source": {
+			"battery": [], 
+			"plugged": []  
+		},
+		"device-schema": "",  
+		"private-key": "", 
+		"geolocation": {
+			"latitude": null, 
+			"longitude": null 
+		},
+		"port-type": {
+			"digital": "", 
+			"analog": "",  
+			"command": "" 
+		},
+		"data-generation": {
+			"frequency": null, 
+			"metric": "", 
+			"firmness": ""
+		} 
+	},
+	"configuration": {
+		"current-power-source": "", 
+		"sensor":{
+			"type": [], 
+			"model": [], 
+			"name": [], 
+			"mode" : [] 
+		},
+		"actuator":{
+			"type": [], 
+			"model": [],
+			"name": [], 
+			"mode" : []
+		},
+		"active-interface": ""
+	}
+}
